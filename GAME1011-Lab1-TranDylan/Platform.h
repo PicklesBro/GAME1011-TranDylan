@@ -1,0 +1,23 @@
+#include <iostream>
+using namespace std;
+
+class Platform
+{
+private:
+	string name;
+	string manufacturer;
+	//string games[];
+public:
+
+	Platform(string n, string m);
+	void setName(string n);
+	void setManufacturer(string n);
+	string getsName();
+	string getManufacturer();
+	string setName();
+	string setManufacturer();
+	
+
+
+};
+#pragma once
