@@ -77,12 +77,15 @@ int main()
 			{
 
 				cout << Playstation[i].getName() << " published by " << Playstation[i].getPublisher() << " and developed by " << Playstation[i].getDeveloper() << endl << "\n";
+				
 				cout << "Write an achievement name to go with this game..." << endl;
 				getline(cin, playerSelect);
 				achievementsT[i].setTitle(playerSelect);
+				
 				cout << "Write an achievement description to go with this game..." << endl;
 				getline(cin, playerSelect);
 				achievementsD[i].setDescription(playerSelect);
+				
 				cout << "Write how many points the achievement will give..." << endl;
 				getline(cin, playerSelect);
 				achievementsSV[i].setScoreValue(playerSelect);
@@ -114,12 +117,15 @@ int main()
 			for (int i = 0; i < GAMES; i++)
 			{
 				cout << Xbox[i].getName() << " published by " << Xbox[i].getPublisher() << " and developed by " << Xbox[i].getDeveloper() << endl << "\n";
+				
 				cout << "Write an achievement name to go with this game..." << endl;
 				getline(cin, playerSelect);
 				achievementsT[i].setTitle(playerSelect);
+				
 				cout << "Write an achievement description to go with this game..." << endl;
 				getline(cin, playerSelect);
 				achievementsD[i].setDescription(playerSelect);
+				
 				cout << "Write how many points the achievement will give..." << endl;
 				getline(cin, playerSelect);
 				achievementsSV[i].setScoreValue(playerSelect);
@@ -149,12 +155,15 @@ int main()
 			for (int i = 0; i < GAMES; i++)
 			{
 				cout << Nintendo[i].getName() << " published by " << Nintendo[i].getPublisher() << " and developed by " << Nintendo[i].getDeveloper() << endl << "\n";
+				
 				cout << "Write an achievement name to go with this game..." << endl;
 				getline(cin, playerSelect);
 				achievementsT[i].setTitle(playerSelect);
+				
 				cout << "Write an achievement description to go with this game..." << endl;
 				getline(cin, playerSelect);
 				achievementsD[i].setDescription(playerSelect);
+				
 				cout << "Write how many points the achievement will give..." << endl;
 				getline(cin, playerSelect);
 				achievementsSV[i].setScoreValue(playerSelect);

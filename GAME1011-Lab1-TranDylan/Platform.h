@@ -6,7 +6,7 @@ class Platform
 private:
 	string name;
 	string manufacturer;
-	//string games[];
+
 public:
 
 	Platform(string n, string m);

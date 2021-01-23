@@ -10,7 +10,6 @@ private:
 	string name;
 	string publisher;
 	string developer;
-	//string achievements[];
 
 public:
 	Game();

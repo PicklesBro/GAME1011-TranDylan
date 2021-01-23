@@ -16,21 +16,6 @@ Game::Game(string n, string p, string d)
 	developer = d;
 }
 
-void Game::setName(string n)
-{
-	name = n;
-}
-
-void Game::setPublisher(string p)
-{
-	publisher = p;
-}
-
-void Game::setDeveloper(string d)
-{
-	developer = d;
-}
-
 string Game::getName()
 {
 	return name;
