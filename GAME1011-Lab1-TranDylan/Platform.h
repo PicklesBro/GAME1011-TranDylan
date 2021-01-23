@@ -12,12 +12,9 @@ public:
 	Platform(string n, string m);
 	void setName(string n);
 	void setManufacturer(string n);
-	string getsName();
+	string getName();
 	string getManufacturer();
 	string setName();
 	string setManufacturer();
-	
-
-
 };
 #pragma once

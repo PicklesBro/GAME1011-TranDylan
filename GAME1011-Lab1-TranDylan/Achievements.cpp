@@ -1,5 +1,11 @@
 #include "Achievements.h"
 
+Achievement::Achievement()
+{
+	title = "coolAchievement";
+	description = "coolDescription";
+	scoreValue = "50";
+}
 
 Achievement::Achievement(string t, string d, string sv)
 {
@@ -18,7 +24,7 @@ void Achievement::setDescription(string d)
 	description = d;
 }
 
-void Achievement::setDeveloper(string sv)
+void Achievement::setScoreValue(string sv)
 {
 	scoreValue = sv;
 }

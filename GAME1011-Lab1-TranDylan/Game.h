@@ -13,7 +13,7 @@ private:
 	//string achievements[];
 
 public:
-
+	Game();
 	Game(string n, string p, string d);
 	void setName(string n);
 	void setPublisher(string p);
@@ -21,7 +21,5 @@ public:
 	string getName();
 	string getPublisher();
 	string getDeveloper();
-
-
 };
 

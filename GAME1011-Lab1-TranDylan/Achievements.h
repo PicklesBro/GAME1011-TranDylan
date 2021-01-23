@@ -9,12 +9,12 @@ private:
 	string scoreValue;
 public:
 
+	Achievement();
 	Achievement(string t, string d, string sv);
 	void setTitle(string t);
 	void setDescription(string d);
-	void setDeveloper(string sv);
+	void setScoreValue(string sv);
 	string getTitle();
 	string getDescription();
 	string getScoreValue();
-
 };

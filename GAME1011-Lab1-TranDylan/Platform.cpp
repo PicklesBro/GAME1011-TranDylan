@@ -16,7 +16,7 @@ void Platform::setManufacturer(string n)
 	manufacturer = n;
 }
 
-string Platform::getsName()
+string Platform::getName()
 {
 	return name;
 }
@@ -25,8 +25,6 @@ string Platform::getManufacturer()
 {
 	return manufacturer;
 }
-
-
 
 string Platform::setName()
 {
@@ -37,3 +35,6 @@ string Platform::setManufacturer()
 {
 	return manufacturer;
 }
+
+
+
