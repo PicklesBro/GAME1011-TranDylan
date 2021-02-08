@@ -1,41 +1,21 @@
 #include "Weapon.h"
 
-string Weapon::getWeaponName()
+// Default
+Weapon::Weapon()
 {
-	return weaponName;
+	weaponName = "Katana";
+	description	= "Sharp as nails";
+	damageValue = "15";
+	specialAbility = "Windslash";
 }
 
-string Weapon::getDescription()
+// Non-Default
+Weapon::Weapon(string wn, string d, string dv, string sa)
 {
-	return description;
+	weaponName = wn;
+	description = d;
+	damageValue = dv;
+	specialAbility = sa;
 }
 
-string Weapon::getDamageValue()
-{
-	return damageValue;
-}
 
-string Weapon::getSpecialAbility()
-{
-	return specialAbility;
-}
-
-void Weapon::setWeaponName(string weaponName)
-{
-	this->weaponName = weaponName;
-}
-
-void Weapon::setDescription(string description)
-{
-	this->description = description;
-}
-
-void Weapon::setDamageValue(string damageValue)
-{
-	this->damageValue = damageValue;
-}
-
-void Weapon::setSpecialAbility(string specialAbility)
-{
-	this->specialAbility = specialAbility;
-}

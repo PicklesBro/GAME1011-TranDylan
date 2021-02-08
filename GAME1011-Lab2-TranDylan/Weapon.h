@@ -10,23 +10,51 @@ private:
 	string damageValue;
 	string specialAbility;
 public: 
+	
+	Weapon();
+	Weapon(string wn, string d, string dv, string sa);
+	
+	string getWeaponName()
+	{
+		return weaponName;
+	}
 
-	string getWeaponName();
-	string getDescription();
-	string getDamageValue();
-	string getSpecialAbility();
+	string getDescription()
+	{
+		return description;
+	}
 
-	void setWeaponName(string weaponName);
-	void setDescription(string description);
-	void setDamageValue(string damageValue);
-	void setSpecialAbility(string specialAbility);
+	string getDamageValue()
+	{
+		return damageValue;
+	}
 
+	string getSpecialAbility()
+	{
+		return specialAbility;
+	}
+
+	void setWeaponName(string weaponName)
+	{
+		this->weaponName = weaponName;
+	}
+
+	void setDescription(string description)
+	{
+		this->description = description;
+	}
+
+	void setDamageValue(string damageValue)
+	{
+		this->damageValue = damageValue;
+	}
+
+	void setSpecialAbility(string specialAbility)
+	{
+		this->specialAbility = specialAbility;
+	}
 
 };
 
-// Derived class
-class demon
-{
 
-};
 

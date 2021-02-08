@@ -3,15 +3,43 @@
 using namespace std;
 class Character
 {
-public:
+private:
 	string name;
 	int healthValue;
+public:
 	
-	
-	// Weapon class I believe
+	//Default
+	Character()
+	{
+		name = "George";
+		healthValue = 100; 
+	}
 
-	//Display info function
+	//Non-default
+	Character(string n, int h)
+	{
+		name = n;
+		healthValue = h;
+	}
 
-private:
+	void setName(string n)
+	{
+		name = n;  
+	}
 
+	void setHealthValue(int hv)
+	{
+		healthValue = hv;
+	}
+
+	string getName()
+	{
+		return name; 
+	}
+
+	int getHealthValue()
+	{
+		return healthValue;
+	}
 };
+
